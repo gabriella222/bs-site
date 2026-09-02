@@ -205,7 +205,7 @@ p {
 
 .hero-background {
     position: absolute;
-    inset: 0;
+    inset: -40px;
     z-index: 0;
 }
 
@@ -1324,10 +1324,6 @@ p {
         display: none;
     }
 
-    .hero-overlay {
-        display: none;
-    }
-
     .hero-title {
         font-size: 28px;
     }
@@ -1512,10 +1508,6 @@ p {
 
     .hero-section {
         padding: var(--spacing-40) var(--spacing-16);
-    }
-
-    .hero-overlay {
-        display: none;
     }
 
     .hero-instagram-link {

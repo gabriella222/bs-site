@@ -142,9 +142,11 @@ document.addEventListener('scroll', function() {
     if (heroSection && heroBackground) {
         const scrollPosition = window.scrollY;
         const heroTop = heroSection.offsetTop;
+        const maxOffset = 40; // não pode passar do buffer definido no CSS (.hero-background { inset: -40px })
         
         if (scrollPosition < heroTop + heroSection.offsetHeight) {
-            const parallaxOffset = (scrollPosition - heroTop) * 0.5;
+            const rawOffset = (scrollPosition - heroTop) * 0.5;
+            const parallaxOffset = Math.max(-maxOffset, Math.min(maxOffset, rawOffset));
             heroBackground.style.transform = `translateY(${parallaxOffset}px)`;
         }
     }
