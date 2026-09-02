@@ -7,6 +7,56 @@
     <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
+
+
+    <meta name="description" content="Oficina mecânica em Piracicaba - SP. Diagnóstico computadorizado, freios, suspensão, troca de óleo e injeção eletrônica com atendimento transparente. Agende pelo WhatsApp.">
+    <meta property="og:type" content="business.business">
+    <meta property="og:title" content="Auto Mecânica BS - Oficina Mecânica em Piracicaba">
+    <meta property="og:description" content="Revisão e manutenção automotiva em Piracicaba com diagnóstico preciso e atendimento transparente. Agende sua revisão pelo WhatsApp.">
+    <meta property="og:image" content="https://automecanicapiracicaba.vercel.app/assets/hero-bg.png">
+    <meta property="og:url" content="https://automecanicapiracicaba.vercel.app/">
+    <meta property="og:locale" content="pt_BR">
+
+    <script type="application/ld+json">
+            {
+            "@context": "https://schema.org",
+            "@type": "AutoRepair",
+            "name": "Auto Mecânica BS",
+            "image": "https://automecanicapiracicaba.vercel.app/assets/hero-bg.png",
+            "url": "https://automecanicapiracicaba.vercel.app/",
+            "telephone": "+5519989203474",
+            "priceRange": "$$",
+            "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "R. Antônio Bacchi, 939 - Paulicéia",
+                "addressLocality": "Piracicaba",
+                "addressRegion": "SP",
+                "postalCode": "13424-070",
+                "addressCountry": "BR"
+            },
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": -22.7760246,
+                "longitude": -47.6428765
+            },
+            "openingHoursSpecification": [
+                {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+                "opens": "08:00",
+                "closes": "18:00"
+                }
+            ],
+            "sameAs": [
+                "https://www.instagram.com/automecanicabs.piracicaba"
+            ],
+            "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": "5.0",
+                "reviewCount": "12"
+            }
+            }
+</script>
 </head>
 <body>
     <!-- NAVIGATION -->
@@ -18,15 +68,20 @@
                 </div>
                 <div class="logo-text">
                     <p class="logo-title">Auto Mecânica BS</p>
-                    <p class="logo-subtitle">Serviços Automotivos</p>
+                    <!-- <p class="logo-subtitle">Serviços Automotivos</p> -->
                 </div>
             </div>
 
             <div class="nav-links">
                 <a href="#servicos" class="nav-link">Serviços</a>
+                <a href="#como-funciona" class="nav-link">Como funciona</a>
                 <a href="#diferenciais" class="nav-link">Diferenciais</a>
                 <a href="#marcas" class="nav-link">Marcas</a>
                 <a href="#depoimentos" class="nav-link">Depoimentos</a>
+                <a href="#sobre" class="nav-link">Sobre</a>
+                <a href="#galeria" class="nav-link">Galeria</a>
+                <a href="#info-uteis" class="nav-link">Endereço</a>
+                <a href="#agendamento" class="nav-link">Agendamento</a>
             </div>
 
             <div class="nav-select">
@@ -34,9 +89,12 @@
                     <option value="">Navegação</option>
                     <option value="#sobre">Sobre Nós</option>
                     <option value="#servicos">Serviços</option>
+                    <option value="#como-funciona">Como funciona</option>
                     <option value="#diferenciais">Diferenciais</option>
                     <option value="#marcas">Marcas</option>
                     <option value="#depoimentos">Depoimentos</option>
+                    <option value="#galeria">Galeria</option>
+                    <option value="#info-uteis">Informações</option>
                 </select>
             </div>
 
@@ -68,16 +126,20 @@
                 <div class="hero-badge">
                     <p class="hero-badge-text">Oficina Mecânica em Piracicaba</p>
                 </div>
-                <h1 class="hero-title">
-                    Mantenha o seu veículo seguro e com a <span class="highlight-cyan">máxima performance</span>
+                <h1 class="hero-heading">
+                    Auto Mecânica BS
                 </h1>
+                <h3 class="hero-title">
+                    Revisão e manutenção do seu carro com <span class="highlight-cyan">confiança, transparência e qualidade.</span>
+                </h3>
                 <p class="hero-description">
-                    Na Auto Mecânica BS oferecemos serviços mecânicos de ponta com transparência, agilidade e garantia. Agende sua revisão agora mesmo pelo WhatsApp.
+                   Cuidamos do seu veículo com diagnóstico preciso, atendimento transparente e soluções adequadas para cada necessidade.
                 </p>
+                <p class="hero-description">Piracicaba/SP</p>
             </div>
 
             <div class="hero-ctas">
-                <button class="whatsapp-btn whatsapp-btn-primary">
+                <a href="https://api.whatsapp.com/send/?phone=5519989203474&text=Ol%C3%A1%21+Gostaria+de+agendar+uma+revis%C3%A3o+na+Auto+Mec%C3%A2nica+BS.&type=phone_number&app_absent=0" class="whatsapp-btn whatsapp-btn-primary" target="_blank">
                     <div class="whatsapp-icon">
                         <img src="assets/whatsapp.svg" alt="WhatsApp">
                     </div>
@@ -88,9 +150,8 @@
                     <div class="chevron-icon">
                         <img src="assets/chevron.svg" alt="">
                     </div>
-                    <a href="https://api.whatsapp.com/send/?phone=5519989203474&text=Ol%C3%A1%21+Gostaria+de+agendar+uma+revis%C3%A3o+na+Auto+Mec%C3%A2nica+BS.&type=phone_number&app_absent=0"></a>
-                </button>
-
+                </a>
+                
                 <div class="rating-badge">
                     <div class="stars-group">
                         <img src="assets/star-hero.svg" alt="Star" class="star">
@@ -123,7 +184,7 @@
                 </div>
                 <div class="service-text">
                     <h3 class="service-title">Injeção Eletrônica</h3>
-                    <p class="service-description">Regulagem precisa do sistema de combustível para economia de combustível e força.</p>
+                    <p class="service-description">Diagnóstico e manutenção do sistema de injeção para ajudar a manter o funcionamento adequado do motor.</p>
                 </div>
             </div>
 
@@ -132,8 +193,8 @@
                     <img src="assets/service-brake-disk.svg" alt="Freios" class="service-icon">
                 </div>
                 <div class="service-text">
-                    <h3 class="service-title">Sistemas de Freios</h3>
-                    <p class="service-description">Troca de pastilhas, discos, fluido de freio e calibração de sistemas ABS.</p>
+                    <h3 class="service-title">Freios</h3>
+                    <p class="service-description">Avaliação e manutenção de pastilhas, discos, fluido e demais componentes do sistema de frenagem.</p>
                 </div>
             </div>
 
@@ -143,7 +204,7 @@
                 </div>
                 <div class="service-text">
                     <h3 class="service-title">Troca de Óleo e Filtros</h3>
-                    <p class="service-description">Óleos sintéticos e minerais recomendados pelas fabricantes.</p>
+                    <p class="service-description">Troca de óleo e filtros de acordo com as especificações recomendadas para o veículo.</p>
                 </div>
             </div>
 
@@ -152,8 +213,8 @@
                     <img src="assets/service-car-battery.svg" alt="Bateria" class="service-icon">
                 </div>
                 <div class="service-text">
-                    <h3 class="service-title">Baterias Automotivas</h3>
-                    <p class="service-description">Testes de alternador e indicação das marcas mais confiáveis.</p>
+                    <h3 class="service-title">Baterias</h3>
+                    <p class="service-description">Avaliação da bateria e do sistema de carga para identificar possíveis falhas e evitar imprevistos.</p>
                 </div>
             </div>
 
@@ -162,8 +223,8 @@
                     <img src="assets/service-spring.svg" alt="Suspensão" class="service-icon">
                 </div>
                 <div class="service-text">
-                    <h3 class="service-title">Sistemas de Suspensão</h3>
-                    <p class="service-description">Amortecedores, pivôs, buchas e bandejas para máxima estabilidade.</p>
+                    <h3 class="service-title">Suspensão</h3>
+                    <p class="service-description">Verificação de amortecedores, buchas, pivôs, bandejas e outros componentes da suspensão.</p>
                 </div>
             </div>
 
@@ -172,8 +233,8 @@
                     <img src="assets/service-headlight.svg" alt="Elétrica" class="service-icon">
                 </div>
                 <div class="service-text">
-                    <h3 class="service-title">Iluminação e Elétrica</h3>
-                    <p class="service-description">Substituição de lâmpadas, faróis desregulados e chicotes elétricos.</p>
+                    <h3 class="service-title">Elétrica Automotiva</h3>
+                    <p class="service-description">Diagnóstico de falhas elétricas, iluminação, partida, carga e outros componentes do sistema elétrico.</p>
                 </div>
             </div>
 
@@ -182,8 +243,8 @@
                     <img src="assets/service-oil.svg" alt="Fluidos" class="service-icon">
                 </div>
                 <div class="service-text">
-                    <h3 class="service-title">Fluidos e Níveis</h3>
-                    <p class="service-description">Arrefecimento, direção hidráulica e transmissão em ordem.</p>
+                    <h3 class="service-title">Fluidos e Manutenção Preventiva</h3>
+                    <p class="service-description">Verificação dos principais fluidos e componentes para ajudar a prevenir problemas e aumentar a vida útil do veículo.</p>
                 </div>
             </div>
 
@@ -193,7 +254,60 @@
                 </div>
                 <div class="service-text">
                     <h3 class="service-title">Diagnóstico Computadorizado</h3>
-                    <p class="service-description">Varredura completa via scanner para identificar anomalias em segundos.</p>
+                    <p class="service-description">Identificação de falhas eletrônicas e códigos de erro por meio de equipamentos de diagnóstico.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- HOW IT WORKS SECTION -->
+    <section class="how-it-works-section" id="como-funciona">
+        <div class="section-heading">
+            <div class="heading-tag">
+                <div class="tag-bar"></div>
+                <p class="tag-text">Processo</p>
+            </div>
+            <h2 class="section-title">Como funciona?</h2>
+        </div>
+
+        <div class="steps-container">
+            <div class="step-item">
+                <div class="step-number">01</div>
+                <div class="step-content">
+                    <h3 class="step-title">Entre em contato</h3>
+                    <p class="step-description">Fale conosco pelo WhatsApp e conte o que está acontecendo com seu veículo.</p>
+                </div>
+            </div>
+
+            <div class="step-item">
+                <div class="step-number">02</div>
+                <div class="step-content">
+                    <h3 class="step-title">Avaliamos o veículo</h3>
+                    <p class="step-description">Realizamos a avaliação necessária para identificar possíveis problemas.</p>
+                </div>
+            </div>
+
+            <div class="step-item">
+                <div class="step-number">03</div>
+                <div class="step-content">
+                    <h3 class="step-title">Explicamos o diagnóstico</h3>
+                    <p class="step-description">Mostramos o que foi encontrado e explicamos as opções de manutenção.</p>
+                </div>
+            </div>
+
+            <div class="step-item">
+                <div class="step-number">04</div>
+                <div class="step-content">
+                    <h3 class="step-title">Você aprova</h3>
+                    <p class="step-description">O serviço é realizado somente após sua autorização.</p>
+                </div>
+            </div>
+
+            <div class="step-item">
+                <div class="step-number">05</div>
+                <div class="step-content">
+                    <h3 class="step-title">Seu carro pronto</h3>
+                    <p class="step-description">Após a manutenção, orientamos você sobre os cuidados necessários para manter o veículo em boas condições.</p>
                 </div>
             </div>
         </div>
@@ -206,40 +320,42 @@
                 <div class="tag-bar"></div>
                 <p class="tag-text">Nossos Diferenciais</p>
             </div>
-            <h2 class="section-title">O que nos torna referência na região</h2>
-            <p class="section-subtitle">Oferecemos uma experiência prática, confiável e pensada para sua rotina agitada.</p>
+            <h2 class="section-title">Por que escolher a Auto Mecânica BS?</h2>
+            <p class="section-subtitle">Mais transparência para você e mais cuidado com o seu carro.</p>
         </div>
 
-        <div class="differentials-grid">
+        
+
+            <div class="differentials-grid">
             <div class="differential-card">
                 <img src="assets/diff-professionals.svg" alt="Profissionais" class="differential-icon">
                 <div class="differential-text">
-                    <h3 class="differential-title">Profissionais Qualificados</h3>
-                    <p class="differential-description">Técnicos certificados constantemente treinados</p>
+                    <h3 class="differential-title">Diagnóstico cuidadoso</h3>
+                    <p class="differential-description">Investigamos o problema antes de indicar um serviço, buscando identificar a causa da falha.</p>
                 </div>
             </div>
 
             <div class="differential-card">
                 <img src="assets/diff-quality.svg" alt="Qualidade" class="differential-icon">
                 <div class="differential-text">
-                    <h3 class="differential-title">Peças de Alta Qualidade</h3>
-                    <p class="differential-description">Garantia de procedência com peças originais e as marcas mais renomadas.</p>
+                    <h3 class="differential-title">Qualidade no serviço</h3>
+                    <p class="differential-description">Utilizamos ferramentas e equipamentos adequados para realizar os serviços de manutenção e diagnóstico.</p>
                 </div>
             </div>
 
             <div class="differential-card">
                 <img src="assets/diff-price.svg" alt="Preço" class="differential-icon">
                 <div class="differential-text">
-                    <h3 class="differential-title">Preço Justo e Transparente</h3>
-                    <p class="differential-description">Sem taxas surpresa ou consertos inventados. Orçamento prévio e aprovado.</p>
+                    <h3 class="differential-title">Orçamento antes do serviço</h3>
+                    <p class="differential-description">Você recebe as informações necessárias para decidir sobre a manutenção antes da execução.</p>
                 </div>
             </div>
 
             <div class="differential-card">
                 <img src="assets/service-brake.svg" alt="Velocidade" class="differential-icon">
                 <div class="differential-text">
-                    <h3 class="differential-title">Atendimento Ultra Rápido</h3>
-                    <p class="differential-description">Compromisso com prazos assertivos e processos ágeis para seu dia a dia.</p>
+                    <h3 class="differential-title">Atendimento transparente</h3>
+                    <p class="differential-description">Explicamos o que encontramos no veículo e orientamos você sobre o que realmente precisa ser feito.</p>
                 </div>
             </div>
         </div>
@@ -325,10 +441,137 @@
                 </div>
             </div>
         </div>
+
+        <div class="testimonials-cta">
+            <a href="https://share.google/5VgbWDYqUyP7STZwh" target="_blank" class="google-reviews-btn">
+                <div class="google-icon">
+                    <img src="assets/google-icon.svg" alt="Google">
+                </div>
+                <div class="google-btn-text">
+                    <p class="google-btn-title">Ver todas as avaliações do Google</p>
+                </div>
+                <div class="chevron-icon">
+                    <img src="assets/chevron.svg" alt="">
+                </div>
+            </a>
+        </div>
+    </section>
+
+    <!-- GALLERY SECTION -->
+<section class="gallery-section" id="galeria">
+    <div class="section-heading">
+        <div class="heading-tag">
+            <div class="tag-bar"></div>
+            <p class="tag-text">Conheça nossa oficina</p>
+        </div>
+        <h2 class="section-title">Conheça nossa oficina</h2>
+        <p class="section-subtitle">Cuidado e profissionalismo em cada atendimento.</p>
+    </div>
+
+    <div class="gallery-grid">
+        <div class="gallery-item gallery-item-large">
+            <img src="assets/gallery-fachada.jpeg" alt="Fachada da Auto Mecânica BS em Piracicaba" class="gallery-image">
+            <div class="gallery-overlay">
+                <p class="gallery-label">Fachada</p>
+            </div>
+        </div>
+        <div class="gallery-item">
+            <img src="assets/gallery-elevador-audi.jpeg" alt="Área interna da oficina com veículos em manutenção" class="gallery-image">
+            <div class="gallery-overlay">
+                <p class="gallery-label">Área de manutenção</p>
+            </div>
+        </div>
+        <div class="gallery-item">
+            <img src="assets/gallery-elevador-multiplos.webp" alt="Elevadores automotivos com veículos em diagnóstico" class="gallery-image">
+            <div class="gallery-overlay">
+                <p class="gallery-label">Elevadores</p>
+            </div>
+        </div>
+        <div class="gallery-item">
+            <img src="assets/gallery-elevador-mercedes.webp" alt="Veículo no elevador durante revisão" class="gallery-image">
+            <div class="gallery-overlay">
+                <p class="gallery-label">Revisão</p>
+            </div>
+        </div>
+        <div class="gallery-item">
+            <img src="assets/gallery-elevador-honda.webp" alt="Veículo elevado para diagnóstico e reparo" class="gallery-image">
+            <div class="gallery-overlay">
+                <p class="gallery-label">Diagnóstico</p>
+            </div>
+        </div>
+    </div>
+</section>
+        
+
+        <!-- ABOUT SECTION -->
+    <section class="about-section" id="sobre">
+        <div class="section-heading">
+            <div class="heading-tag">
+                <div class="tag-bar"></div>
+                <p class="tag-text">Sobre Nós</p>
+            </div>
+            <h2 class="section-title">Oficina Mecânica em Piracicaba</h2>
+        </div>
+
+        <div class="about-content">
+            <p class="about-text">A Auto Mecânica BS atende motoristas de Piracicaba e região que procuram uma oficina mecânica para revisão, manutenção preventiva, diagnóstico e reparos automotivos.</p>
+            <p class="about-text">Realizamos serviços como diagnóstico computadorizado, freios, suspensão, troca de óleo, injeção eletrônica, elétrica automotiva, baterias e manutenção preventiva.</p>
+            <p class="about-text">Nosso objetivo é oferecer um atendimento claro e transparente, ajudando você a entender o problema do veículo e tomar a melhor decisão sobre a manutenção.</p>
+        </div>
+    </section>
+    <!-- USEFUL INFORMATION SECTION -->
+    <section class="useful-info-section" id="info-uteis">
+        <div class="section-heading">
+            <div class="heading-tag">
+                <div class="tag-bar"></div>
+                <p class="tag-text">Endereço</p>
+            </div>
+            <h2 class="section-title">Onde estamos</h2>
+        </div>
+
+        <div class="useful-info-container">
+            <div class="useful-info-content">
+                <div class="info-items">
+                    <div class="info-item">
+                        <div class="info-icon-box">
+                            <img src="assets/map-pin.svg" alt="Endereço" class="info-icon">
+                        </div>
+                        <div class="info-text">
+                            <p class="info-label">Endereço</p>
+                            <p class="info-value">R. Antônio Bacchi, 939 - Paulicéia, Piracicaba - SP, 13424-070</p>
+                        </div>
+                    </div>
+
+                    <div class="info-item">
+                        <div class="info-icon-box">
+                            <img src="assets/phone.svg" alt="Telefone" class="info-icon">
+                        </div>
+                        <div class="info-text">
+                            <p class="info-label">Telefone</p>
+                            <p class="info-value">(19) 98920-3474</p>
+                        </div>
+                    </div>
+
+                    <div class="info-item">
+                        <div class="info-icon-box">
+                            <img src="assets/clock.svg" alt="Horário" class="info-icon">
+                        </div>
+                        <div class="info-text">
+                            <p class="info-label">Horário</p>
+                            <p class="info-value">Seg à Sex: 08:00 às 18:00</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="useful-info-map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3670.2344268!2d-47.6428765!3d-22.7760246!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94be4c68d7f7d7d7%3A0x7d7d7d7d7d7d7d7d!2sR.%20Ant%C3%B4nio%20Bacchi%2C%20939%20-%20Paulic%C3%A9ia%2C%20Piracicaba%20-%20SP!5e0!3m2!1spt-BR!2sbr!4v1693459680" width="100%" height="100%" style="border:0; border-radius: 16px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
     </section>
 
     <!-- FINAL CTA SECTION -->
-    <section class="cta-final-section">
+    <section class="cta-final-section" id="agendamento">
         <div class="cta-background">
             <img src="assets/cta-bg.png" alt="" class="cta-bg-img">
             <div class="cta-overlay"></div>
@@ -341,10 +584,13 @@
                         <div class="tag-bar"></div>
                         <p class="tag-text">Agende Agora</p>
                     </div>
-                    <h2 class="section-title">Pronto para rodar com total segurança?</h2>
+                    <h2 class="section-title">Seu carro está precisando de manutenção?</h2>
+                    <h3>Não espere o problema ficar maior.</h3>
+
+                    
                 </div>
-                <p class="cta-description">Fale conosco diretamente pelo WhatsApp. Nossa equipe técnica está pronta para lhe passar um orçamento preliminar ou agendar sua data ideal.</p>
-                <button class="whatsapp-btn whatsapp-btn-cta">
+                <p class="cta-description">Entre em contato com a Auto Mecânica BS e consulte a disponibilidade de atendimento.</p>
+                <a href="https://api.whatsapp.com/send/?phone=5519989203474&text=Ol%C3%A1%21+Gostaria+de+agendar+uma+revis%C3%A3o+na+Auto+Mec%C3%A2nica+BS.&type=phone_number&app_absent=0" class="whatsapp-btn whatsapp-btn-cta" target="_blank">
                     <div class="whatsapp-icon">
                         <img src="assets/whatsapp.svg" alt="WhatsApp">
                     </div>
@@ -355,12 +601,7 @@
                     <div class="chevron-icon">
                         <img src="assets/chevron.svg" alt="">
                     </div>
-                    <a href="https://api.whatsapp.com/send/?phone=5519989203474&text=Ol%C3%A1%21+Gostaria+de+agendar+uma+revis%C3%A3o+na+Auto+Mec%C3%A2nica+BS.&type=phone_number&app_absent=0"></a>
-                </button>
-            </div>
-
-            <div class="contact-info-board">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3670.2344268!2d-47.6428765!3d-22.7760246!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94be4c68d7f7d7d7%3A0x7d7d7d7d7d7d7d7d!2sR.%20Ant%C3%B4nio%20Bacchi%2C%20939%20-%20Paulic%C3%A9ia%2C%20Piracicaba%20-%20SP!5e0!3m2!1spt-BR!2sbr!4v1693459680" width="100%" height="450" style="border:0; border-radius: 16px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </a>
             </div>
         </div>
     </section>
