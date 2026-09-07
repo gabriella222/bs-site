@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" fill="none">
+  <g stroke="#00C8FF" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Oil filter -->
+    <path d="M13 23.5c0-3.1 8.5-5.6 19-5.6s19 2.5 19 5.6v22.7c0 3.1-8.5 5.6-19 5.6s-19-2.5-19-5.6V23.5Z"/>
+    <ellipse cx="32" cy="23.5" rx="19" ry="5.6"/>
+    <ellipse cx="32" cy="23.5" rx="13.8" ry="3.8"/>
+    <ellipse cx="32" cy="23.5" rx="3.8" ry="1.6"/>
+
+    <!-- Filter holes -->
+    <circle cx="23.8" cy="22.5" r="1"/>
+    <circle cx="27.2" cy="20.7" r="1"/>
+    <circle cx="36.8" cy="20.7" r="1"/>
+    <circle cx="40.2" cy="22.5" r="1"/>
+    <circle cx="27.2" cy="26.4" r="1"/>
+    <circle cx="36.8" cy="26.4" r="1"/>
+
+    <!-- Filter ribs -->
+    <path d="M18.5 29v14"/>
+    <path d="M24.5 29v15"/>
+    <path d="M32 29v15.5"/>
+    <path d="M39.5 29v15"/>
+    <path d="M45.5 29v14"/>
+
+    <!-- Oil droplet -->
+    <path d="M49.5 32.5c0 0-6.8 8.1-6.8 12.4a6.8 6.8 0 0 0 13.6 0c0-4.3-6.8-12.4-6.8-12.4Z"/>
+    <path d="M47.4 43.2c-.9 1.6-.7 3.1.5 4.1"/>
+  </g>
+</svg>
