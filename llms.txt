@@ -1,0 +1,31 @@
+# Auto Mecânica BS
+
+> Oficina mecânica em Piracicaba/SP, com nota 5/5 no Google. Realiza diagnóstico computadorizado, freios, suspensão, troca de óleo, injeção eletrônica, elétrica automotiva, baterias e manutenção preventiva, com atendimento transparente e orçamento antes da execução do serviço.
+
+Endereço: R. Antônio Bacchi, 939 - Paulicéia, Piracicaba - SP, 13424-070
+Telefone/WhatsApp: (19) 98920-3474
+Horário de atendimento: Segunda a sexta, 08:00 às 18:00
+Atende motoristas de Piracicaba e região.
+
+## Serviços
+
+- [Injeção Eletrônica](https://www.automecanicabspiracicaba.com.br/#servicos): Diagnóstico e manutenção do sistema de injeção eletrônica
+- [Freios](https://www.automecanicabspiracicaba.com.br/#servicos): Avaliação e manutenção de pastilhas, discos e fluido de freio
+- [Troca de Óleo e Filtros](https://www.automecanicabspiracicaba.com.br/#servicos): Troca conforme especificação do fabricante
+- [Baterias](https://www.automecanicabspiracicaba.com.br/#servicos): Avaliação da bateria e do sistema de carga
+- [Suspensão](https://www.automecanicabspiracicaba.com.br/#servicos): Verificação de amortecedores, buchas, pivôs e bandejas
+- [Elétrica Automotiva](https://www.automecanicabspiracicaba.com.br/#servicos): Diagnóstico de falhas elétricas, iluminação, partida e carga
+- [Fluidos e Manutenção Preventiva](https://www.automecanicabspiracicaba.com.br/#servicos): Verificação de fluidos e componentes preventivos
+
+## Páginas
+
+- [Página principal](https://www.automecanicabspiracicaba.com.br/): Apresentação da oficina, serviços, diferenciais, depoimentos, galeria e formas de contato
+- [Como funciona](https://www.automecanicabspiracicaba.com.br/#como-funciona): Etapas do atendimento, do contato inicial à entrega do veículo
+- [Diferenciais](https://www.automecanicabspiracicaba.com.br/#diferenciais): Diagnóstico cuidadoso, qualidade, orçamento prévio e atendimento transparente
+- [Depoimentos](https://www.automecanicabspiracicaba.com.br/#depoimentos): Avaliações de clientes (nota 5/5 no Google)
+- [Endereço e contato](https://www.automecanicabspiracicaba.com.br/#info-uteis): Localização, telefone e horário de funcionamento
+
+## Optional
+
+- [Instagram](https://www.instagram.com/automecanicabs.piracicaba): Fotos e conteúdos do dia a dia da oficina
+- [Avaliações no Google](https://share.google/5VgbWDYqUyP7STZwh): Avaliações de clientes
