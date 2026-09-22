@@ -1177,32 +1177,52 @@ p {
 }
 
 /* ==================== FOOTER ==================== */
-.footer {
-    background-color: var(--color-bg-dark);
-    border-top: 1px solid var(--color-border);
-    padding: var(--spacing-56) var(--spacing-56);
-}
-
 .footer-content {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    max-width: 1920px;
-    margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  align-items: center;
+  padding: 24px 32px; /* use o MESMO valor de padding lateral do header, ex: se o header usa 48px, troque aqui também */
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 .footer-logo {
-    font-size: 15px;
-    font-weight: 900;
-    color: var(--color-text-primary);
+  color: inherit;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1rem;
+  white-space: nowrap;
+  justify-self: start;
+}
+
+.footer-links {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+  justify-content: center;
+  justify-self: center;
+}
+
+.footer-links a {
+  color: #a0a0b0;
+  text-decoration: none;
+  font-size: 0.9rem;
+  white-space: nowrap;
+}
+
+.footer-links a:hover {
+  color: #fff;
 }
 
 .footer-copyright {
-    font-size: 13px;
-    font-weight: 400;
-    color: var(--color-text-secondary);
+  color: #a0a0b0;
+  font-size: 0.85rem;
+  margin: 0;
+  white-space: nowrap;
+  justify-self: end;
 }
-
 /* ==================== RESPONSIVENESS ==================== */
 @media (max-width: 1440px) {
     .nav-container,
@@ -1212,10 +1232,14 @@ p {
     .brands-section,
     .testimonials-section,
     .cta-final-section,
-    .footer {
-        padding-left: var(--spacing-80);
-        padding-right: var(--spacing-80);
-    }
+    .footer-content {
+    padding: 24px 20px;
+    gap: 12px;
+   }
+
+  .footer-links {
+    gap: 12px;
+  }
 
     .services-grid {
         grid-template-columns: repeat(3, 1fr);
@@ -1242,10 +1266,14 @@ p {
     .brands-section,
     .testimonials-section,
     .cta-final-section,
-    .footer {
-        padding-left: var(--spacing-40);
-        padding-right: var(--spacing-40);
+     .footer-content {
+        padding: 24px 20px;
+        gap: 12px;
     }
+
+  .footer-links {
+    gap: 12px;
+  }
 
     .nav-container {
         flex-wrap: wrap;
@@ -1336,10 +1364,26 @@ p {
     .about-section,
     .useful-info-section,
     .cta-final-section,
-    .footer {
-        padding-left: var(--spacing-24);
-        padding-right: var(--spacing-24);
-    }
+    .footer-content {
+    grid-template-columns: 1fr;
+    justify-items: center;
+    text-align: center;
+    gap: 16px;
+    padding: 24px 20px;
+  }
+
+  .footer-logo {
+    justify-self: center;
+  }
+
+  .footer-links {
+    justify-self: center;
+  }
+
+  .footer-copyright {
+    justify-self: center;
+    white-space: normal; /* permite quebrar linha se o texto do copyright for longo */
+  }
 
     .cta-final-section {
         padding-top: var(--spacing-100);
